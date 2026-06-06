@@ -1,0 +1,5 @@
+IP,Attack,URL,Severity
+192.168.1.20,SQLI,/login?user=admin' OR 1=1--,HIGH
+192.168.1.20,SQLI,/login?user=admin' OR 1=1--,HIGH
+192.168.1.30,XSS,/search?q=<script>alert(1)</script>,HIGH
+192.168.1.40,BRUTE_FORCE,/login,MEDIUM
