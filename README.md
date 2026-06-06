@@ -10,12 +10,4 @@ Generates attack timelines
 Exports findings to CSV and TXT reports
 Creates a visual summary chart of attack types
 
-How It Works
 
-The analyzer reads a web server access log and extracts:
-
-Source IP address
-Timestamp
-HTTP method
-Requested URL
-Response status code
